@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E2E4"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:background="@drawable/img_2"
+        android:minHeight="246dp"
+        android:text="Select Your Pizza"
+        android:textColor="#090909"
+        android:textSize="30dp"
+        android:textStyle="bold"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0C0BD"
+        android:text="Select Your Pizza"
+        android:textColor="#090909"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="#DCD5D5"
+        android:paddingLeft="50dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Margherita                  ₹240"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New York Style          ₹250"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicago                       ₹260"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="St Louis-Style            ₹290"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewToppings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Toppings"
+        android:textColor="#181616"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxCheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Cheese       ₹40"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPepperoni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pepperoni            ₹40"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMushrooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mushrooms         ₹40"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOlives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olives                   ₹40"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: ₹0"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#F60505"
+        android:text="Order"
+        android:textColorLink="#CC1B1B"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
